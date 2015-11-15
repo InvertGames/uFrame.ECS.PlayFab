@@ -1,0 +1,13 @@
+{
+	"Comments":"Listens for the login event and calls playfabs LoginWithEmailAddress"	, 
+	"MarkColor":0	, 
+	"ShowMark":true	, 
+	"Size":	{
+		"x":225		, 
+		"y":72	}
+	, 
+	"Name":"NewNoteNode_Copy"	, 
+	"Order":0	, 
+	"GraphId":"5938dc25-79e6-4bd7-945e-94198e3dd6da"	, 
+	"Identifier":"aab0f558-6f2f-46fe-a8cb-e5bf6b55abff"	, 
+	"Expanded":false}

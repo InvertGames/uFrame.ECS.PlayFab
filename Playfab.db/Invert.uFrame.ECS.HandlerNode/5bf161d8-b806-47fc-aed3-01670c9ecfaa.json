@@ -1,0 +1,11 @@
+{
+	"CodeHandler":false	, 
+	"Custom":true	, 
+	"MetaType":"uFrame.Kernel.GameReadyEvent"	, 
+	"VariableCount":0	, 
+	"VariableName":"HandlerNode1"	, 
+	"Name":"DisableAllNotificationUI"	, 
+	"Order":0	, 
+	"GraphId":"8fe963b3-b338-4762-8461-964b772c5db4"	, 
+	"Identifier":"5bf161d8-b806-47fc-aed3-01670c9ecfaa"	, 
+	"Expanded":false}

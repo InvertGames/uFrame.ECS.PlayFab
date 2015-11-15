@@ -1,0 +1,13 @@
+{
+	"Comments":"Loads the Playfab Code into the system."	, 
+	"MarkColor":0	, 
+	"ShowMark":true	, 
+	"Size":	{
+		"x":225		, 
+		"y":72	}
+	, 
+	"Name":"NewNoteNode"	, 
+	"Order":0	, 
+	"GraphId":"5938dc25-79e6-4bd7-945e-94198e3dd6da"	, 
+	"Identifier":"11c98cfc-58f7-4b5f-a85c-e607e290a689"	, 
+	"Expanded":false}

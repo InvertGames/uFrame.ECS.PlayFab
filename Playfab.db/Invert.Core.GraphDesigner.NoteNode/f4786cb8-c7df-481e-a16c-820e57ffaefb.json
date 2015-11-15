@@ -1,0 +1,14 @@
+{
+	"Comments":"Descriptors for defining component properties as Player Prefs or stored in the cloud (Playfab..etc)"	, 
+	"MarkColor":23	, 
+	"HeaderText":"Cloud Data"	, 
+	"ShowMark":true	, 
+	"Size":	{
+		"x":225		, 
+		"y":"96.19"	}
+	, 
+	"Name":"NewNoteNode_Copy"	, 
+	"Order":0	, 
+	"GraphId":"b4ccc5e3-e3d2-4159-9366-f11cab189787"	, 
+	"Identifier":"f4786cb8-c7df-481e-a16c-820e57ffaefb"	, 
+	"Expanded":false}

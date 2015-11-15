@@ -1,0 +1,14 @@
+{
+	"Comments":"Should save all data of any type."	, 
+	"MarkColor":23	, 
+	"HeaderText":"Save Data"	, 
+	"ShowMark":true	, 
+	"Size":	{
+		"x":225		, 
+		"y":"81.2"	}
+	, 
+	"Name":"NewNoteNode_Copy_Copy_Copy"	, 
+	"Order":0	, 
+	"GraphId":"b4ccc5e3-e3d2-4159-9366-f11cab189787"	, 
+	"Identifier":"5e0b5fe6-4125-4681-937c-20fd9b2acb3b"	, 
+	"Expanded":false}

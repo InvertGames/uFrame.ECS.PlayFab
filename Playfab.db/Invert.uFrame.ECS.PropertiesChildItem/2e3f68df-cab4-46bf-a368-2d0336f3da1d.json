@@ -1,0 +1,7 @@
+{
+	"FriendlyName":"IsLoggedIn"	, 
+	"RelatedType":"System.Boolean"	, 
+	"Identifier":"2e3f68df-cab4-46bf-a368-2d0336f3da1d"	, 
+	"NodeId":"15c43187-0bc7-4e7d-bf44-ff87abb36299"	, 
+	"Order":0	, 
+	"Name":"IsLoggedIn"}

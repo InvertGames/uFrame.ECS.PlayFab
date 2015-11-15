@@ -1,0 +1,11 @@
+{
+	"CodeHandler":false	, 
+	"Custom":true	, 
+	"MetaType":"uFrame.Kernel.GameReadyEvent"	, 
+	"VariableCount":0	, 
+	"VariableName":"HandlerNode14"	, 
+	"Name":"DemoPlayerSystemGameReady"	, 
+	"Order":0	, 
+	"GraphId":"76984b7e-9ffb-42ff-8091-075da4e994f8"	, 
+	"Identifier":"9b9eb30f-51db-4dae-ac74-3aca9646312d"	, 
+	"Expanded":false}

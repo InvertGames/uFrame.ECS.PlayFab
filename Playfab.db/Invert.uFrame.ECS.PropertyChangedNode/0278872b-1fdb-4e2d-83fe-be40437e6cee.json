@@ -1,0 +1,14 @@
+{
+	"PropertyInId":"26815ee3-08dc-4757-afa4-07f2ac76bbf9"	, 
+	"OnlyWhenChanged":false	, 
+	"Immediate":true	, 
+	"CodeHandler":false	, 
+	"Custom":false	, 
+	"VariableCount":0	, 
+	"StartActionId":"126785ce-1876-481e-a85a-20faeb8e7092"	, 
+	"VariableName":"PropertyChangedNode6"	, 
+	"Name":"UpdateClickCount"	, 
+	"Order":0	, 
+	"GraphId":"76984b7e-9ffb-42ff-8091-075da4e994f8"	, 
+	"Identifier":"0278872b-1fdb-4e2d-83fe-be40437e6cee"	, 
+	"Expanded":false}
