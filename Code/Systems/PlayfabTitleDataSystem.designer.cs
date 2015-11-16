@@ -14,8 +14,8 @@ namespace Playfab {
     using System.Collections.Generic;
     using System.Linq;
     using uFrame.Kernel;
-    using uFrame.ECS;
     using UniRx;
+    using uFrame.ECS;
     using Playfab;
     
     
@@ -35,15 +35,8 @@ namespace Playfab {
         public override void Setup() {
             base.Setup();
             TitleDataManager = ComponentSystem.RegisterGroup<TitleDataGroup,ITitleData>();
-            this.OnEvent<Playfab.LoadData>().Subscribe(_=>{ LoadTitleDataFilter(_); }).DisposeWith(this);
             TitleDataManager.CreatedObservable.Subscribe(LoadComponentTitleDataFilter).DisposeWith(this);
-        }
-        
-        protected virtual void LoadTitleDataHandler(Playfab.LoadData data) {
-        }
-        
-        protected void LoadTitleDataFilter(Playfab.LoadData data) {
-            this.LoadTitleDataHandler(data);
+            this.OnEvent<Playfab.LoadData>().Subscribe(_=>{ LoadTitleDataFilter(_); }).DisposeWith(this);
         }
         
         protected virtual void LoadComponentTitleData(ITitleData data, ITitleData group) {
@@ -58,6 +51,13 @@ namespace Playfab {
                 return;
             }
             this.LoadComponentTitleData(data, GroupItem);
+        }
+        
+        protected virtual void LoadTitleDataHandler(Playfab.LoadData data) {
+        }
+        
+        protected void LoadTitleDataFilter(Playfab.LoadData data) {
+            this.LoadTitleDataHandler(data);
         }
     }
     

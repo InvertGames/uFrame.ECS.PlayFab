@@ -14,8 +14,8 @@ namespace Playfab {
     using System.Collections.Generic;
     using System.Linq;
     using uFrame.Kernel;
-    using uFrame.ECS;
     using UniRx;
+    using uFrame.ECS;
     using Playfab;
     
     
@@ -47,6 +47,7 @@ namespace Playfab {
             base.Setup();
             PlayerStatManager = ComponentSystem.RegisterGroup<PlayerStatGroup,IPlayerStat>();
             SettingsManager = ComponentSystem.RegisterComponent<Settings>(22);
+            BlackBoardSystem.EnsureBlackBoard<Settings>();
             this.OnEvent<Playfab.SaveData>().Subscribe(_=>{ SavePlayerStatsFilter(_); }).DisposeWith(this);
             this.OnEvent<Playfab.LoadData>().Subscribe(_=>{ LoadPlayerStatsFilter(_); }).DisposeWith(this);
             PlayerStatManager.CreatedObservable.Subscribe(LoadPlayerStatFilter).DisposeWith(this);

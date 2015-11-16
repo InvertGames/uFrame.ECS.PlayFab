@@ -1,4 +1,6 @@
 using System.Reflection;
+using BehaviorDesigner.Runtime;
+using Invert.Json;
 using PlayFab;
 using PlayFab.ClientModels;
 using UnityEngine;
@@ -21,11 +23,17 @@ namespace Playfab {
 
         public void LoadBlackBoardData(IBlackBoardComponent blackboardComponent)
         {
-            foreach (var property in blackboardComponent.GetType().GetProperties())
+        }
+
+        protected override void LoadComponentTitleData(ITitleData data, ITitleData @group)
+        {
+            base.LoadComponentTitleData(data, @group);
+
+            foreach (var property in data.GetType().GetProperties())
             {
                 if (TitleData.ContainsKey(property.Name))
                 {
-                    
+                    EcsComponentExtensions.ApplyValue(data, new JSONNode() { Value = TitleData[property.Name] }, property);
                 }
             }
         }
@@ -35,29 +43,18 @@ namespace Playfab {
         protected override void LoadTitleDataHandler(LoadData data)
         {
             base.LoadTitleDataHandler(data);
-
-            var complete = false;
             PlayFabClientAPI.GetTitleData(new GetTitleDataRequest(), _ =>
             {
                 TitleData = _.Data;
 
-                foreach (var item in uFrameKernel.Instance.Services)
+                foreach (var item in TitleDataManager.Components)
                 {
-                    foreach (var x in TitleData.Keys)
-                    {
-                        var property = item.GetType().GetProperty(x, BindingFlags.Default);
-                        if (property != null && property.PropertyType == typeof(string))
-                        {
-                            property.SetValue(item, TitleData[x], null);
-                        }
-                    }
+                    LoadComponentTitleData(item,item);
                 }
             }, _ =>
             {
                
             });
-         
-          
         }
 
         public override void Loaded()

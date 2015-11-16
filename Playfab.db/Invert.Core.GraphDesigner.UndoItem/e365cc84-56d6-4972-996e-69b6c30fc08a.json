@@ -1,0 +1,8 @@
+{
+	"Identifier":"e365cc84-56d6-4972-996e-69b6c30fc08a"	, 
+	"Time":"11/16/2015 12:25:46 AM"	, 
+	"Group":"02546"	, 
+	"DataRecordId":"c7499c27-303c-43cb-8b0b-6c9ba9b7488c"	, 
+	"Type":1	, 
+	"RecordType":"Invert.uFrame.ECS.PropertySelectionValue, Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"	, 
+	"Data":"{\r\n\t\"Identifier\":\"c7499c27-303c-43cb-8b0b-6c9ba9b7488c\"\t, \r\n\t\"NodeId\":\"e43724ca-bd8c-466b-b929-148b9fce4f2d\"\t, \r\n\t\"ItemId\":\"e43724ca-bd8c-466b-b929-148b9fce4f2d:Property\"\t, \r\n\t\"ValueId\":\"83b64292-9cb0-4399-ad7f-e685a509ae9f:System.BlackBoardSystem.Get<UIStuff>().CurrentScore\"}\r\n"}

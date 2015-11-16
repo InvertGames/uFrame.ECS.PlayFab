@@ -1,4 +1,5 @@
 {
+	"BlackBoard":false	, 
 	"ComponentId":6	, 
 	"Name":"VisibleWhenAuthenticated"	, 
 	"Order":0	, 

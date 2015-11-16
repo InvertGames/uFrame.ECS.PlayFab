@@ -14,8 +14,8 @@ namespace Playfab {
     using System.Collections.Generic;
     using System.Linq;
     using uFrame.Kernel;
-    using uFrame.ECS;
     using UniRx;
+    using uFrame.ECS;
     
     
     public partial class LoginSystemBase : uFrame.ECS.EcsSystem {
@@ -34,6 +34,7 @@ namespace Playfab {
         public override void Setup() {
             base.Setup();
             UserLoginInfoManager = ComponentSystem.RegisterComponent<UserLoginInfo>(23);
+            BlackBoardSystem.EnsureBlackBoard<UserLoginInfo>();
             this.OnEvent<Playfab.UserLoggedIn>().Subscribe(_=>{ LoginSystemUserLoggedInFilter(_); }).DisposeWith(this);
             this.OnEvent<Playfab.UserLoggedOut>().Subscribe(_=>{ LoginSystemUserLoggedOutFilter(_); }).DisposeWith(this);
         }

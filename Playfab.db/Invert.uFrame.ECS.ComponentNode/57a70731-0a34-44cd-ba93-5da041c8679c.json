@@ -1,4 +1,5 @@
 {
+	"BlackBoard":false	, 
 	"ComponentId":2	, 
 	"Name":"LoginButton"	, 
 	"Order":0	, 

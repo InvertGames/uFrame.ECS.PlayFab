@@ -22,9 +22,10 @@ namespace Playfab
             base.Setup();
         }
 
-        public override IEnumerator SetupAsync()
+
+        protected override void LoginAsGuestHandler(GameReadyEvent data)
         {
-            var complete = false;
+            base.LoginAsGuestHandler(data);
             PlayFabClientAPI.LoginWithCustomID(new LoginWithCustomIDRequest()
             {
                 CreateAccount = true,
@@ -32,15 +33,12 @@ namespace Playfab
             }, result =>
             {
                 this.Publish(new UserLoggedIn());
-                complete = true;
+           
             }, error =>
             {
-                complete = true;
+          
             });
-            while (!complete)
-                yield return new WaitForEndOfFrame();
         }
-
 
         protected override void PlayfabLoginSystemLoginUserHandler(LoginUser data)
         {
@@ -51,6 +49,7 @@ namespace Playfab
                 Password = data.Password
             }, result =>
             {
+
                 this.Publish(new UserLoggedIn());
             }, error =>
             {
