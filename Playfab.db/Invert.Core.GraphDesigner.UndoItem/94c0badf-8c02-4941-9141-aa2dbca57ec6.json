@@ -1,0 +1,8 @@
+{
+	"Identifier":"94c0badf-8c02-4941-9141-aa2dbca57ec6"	, 
+	"Time":"11/16/2015 8:23:37 PM"	, 
+	"Group":202336	, 
+	"DataRecordId":"dd1afeb2-cf4a-4e43-81d9-8a5b68b99347"	, 
+	"Type":1	, 
+	"RecordType":"Invert.uFrame.ECS.HandlerNode, Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"	, 
+	"Data":"{\r\n\t\"CodeHandler\":false\t, \r\n\t\"Custom\":false\t, \r\n\t\"MetaType\":\"5d6d177d-5b66-4e9f-93ed-5f9eeab25da0\"\t, \r\n\t\"VariableCount\":0\t, \r\n\t\"VariableName\":\"HandlerNode11\"\t, \r\n\t\"Name\":\"ScenesSystemLoadMenuScene\"\t, \r\n\t\"Order\":0\t, \r\n\t\"GraphId\":\"1b939b08-1bc9-4c5d-89ea-fdeb32fe19c8\"\t, \r\n\t\"Identifier\":\"dd1afeb2-cf4a-4e43-81d9-8a5b68b99347\"\t, \r\n\t\"Expanded\":false}\r\n"}

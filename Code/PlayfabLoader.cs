@@ -33,7 +33,6 @@ namespace Playfab {
             system = this.AddSystem<LoginUISystem>();
             system = this.AddSystem<PlayfabLoginSystem>();
             system = this.AddSystem<GameSystem>();
-            system = this.AddSystem<ScenesSystem>();
             system = this.AddSystem<NotificationsUISystem>();
         }
     }

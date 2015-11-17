@@ -1,8 +1,0 @@
-{
-	"Identifier":"3e6fc914-88dc-43c6-b686-86180094c2b7"	, 
-	"Time":"11/16/2015 12:26:21 AM"	, 
-	"Group":"02621"	, 
-	"DataRecordId":"a65b9768-d2d2-4c47-834d-8fdb7f57ca07"	, 
-	"Type":1	, 
-	"RecordType":"Invert.uFrame.ECS.ComponentNode, Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"	, 
-	"Data":"{\r\n\t\"BlackBoard\":true\t, \r\n\t\"ComponentId\":24\t, \r\n\t\"Name\":\"UIStuff\"\t, \r\n\t\"Order\":0\t, \r\n\t\"GraphId\":\"e42e4835-8137-4ff5-996d-9eadff51a3fb\"\t, \r\n\t\"Identifier\":\"a65b9768-d2d2-4c47-834d-8fdb7f57ca07\"\t, \r\n\t\"Expanded\":false}\r\n"}

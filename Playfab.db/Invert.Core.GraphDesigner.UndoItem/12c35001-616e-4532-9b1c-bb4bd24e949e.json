@@ -1,8 +1,0 @@
-{
-	"Identifier":"12c35001-616e-4532-9b1c-bb4bd24e949e"	, 
-	"Time":"11/16/2015 12:26:07 AM"	, 
-	"Group":"0267"	, 
-	"DataRecordId":"83b64292-9cb0-4399-ad7f-e685a509ae9f"	, 
-	"Type":1	, 
-	"RecordType":"Invert.uFrame.ECS.PropertyChangedNode, Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"	, 
-	"Data":"{\r\n\t\"PropertyInId\":\"a25e865b-861e-424a-aa29-ee0e0e07ad35\"\t, \r\n\t\"OnlyWhenChanged\":false\t, \r\n\t\"Immediate\":true\t, \r\n\t\"CodeHandler\":false\t, \r\n\t\"Custom\":false\t, \r\n\t\"VariableCount\":0\t, \r\n\t\"VariableName\":\"PropertyChangedNode39\"\t, \r\n\t\"Name\":\"NewPropertyChangedNode\"\t, \r\n\t\"Order\":0\t, \r\n\t\"GraphId\":\"e42e4835-8137-4ff5-996d-9eadff51a3fb\"\t, \r\n\t\"Identifier\":\"83b64292-9cb0-4399-ad7f-e685a509ae9f\"\t, \r\n\t\"Expanded\":false}\r\n"}

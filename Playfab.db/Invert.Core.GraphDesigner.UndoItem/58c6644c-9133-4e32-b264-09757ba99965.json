@@ -1,0 +1,8 @@
+{
+	"Identifier":"58c6644c-9133-4e32-b264-09757ba99965"	, 
+	"Time":"11/16/2015 8:23:37 PM"	, 
+	"Group":202336	, 
+	"DataRecordId":"e9a5599a-8af2-4447-b107-3bc68e210b9f"	, 
+	"Type":1	, 
+	"RecordType":"Invert.uFrame.ECS.SystemNode, Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"	, 
+	"Data":"{\r\n\t\"VariableCount\":0\t, \r\n\t\"Name\":\"ScenesSystem\"\t, \r\n\t\"Order\":0\t, \r\n\t\"GraphId\":\"1b939b08-1bc9-4c5d-89ea-fdeb32fe19c8\"\t, \r\n\t\"Identifier\":\"e9a5599a-8af2-4447-b107-3bc68e210b9f\"\t, \r\n\t\"Expanded\":true}\r\n"}

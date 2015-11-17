@@ -1,8 +1,0 @@
-{
-	"Identifier":"36ea3e08-8d58-4d8c-aa8a-410740f004b4"	, 
-	"Time":"11/16/2015 12:26:35 AM"	, 
-	"Group":"02635"	, 
-	"DataRecordId":"3a730b2a-dd9a-4f9a-bfc3-6d5f67bf52de"	, 
-	"Type":1	, 
-	"RecordType":"Invert.uFrame.ECS.ComponentNode, Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"	, 
-	"Data":"{\r\n\t\"BlackBoard\":false\t, \r\n\t\"ComponentId\":25\t, \r\n\t\"Name\":\"ScoreLabel\"\t, \r\n\t\"Order\":0\t, \r\n\t\"GraphId\":\"e42e4835-8137-4ff5-996d-9eadff51a3fb\"\t, \r\n\t\"Identifier\":\"3a730b2a-dd9a-4f9a-bfc3-6d5f67bf52de\"\t, \r\n\t\"Expanded\":false}\r\n"}
