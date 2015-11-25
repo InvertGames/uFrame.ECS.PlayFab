@@ -13,10 +13,10 @@ namespace Playfab {
     using System.Collections;
     using System.Collections.Generic;
     using System.Linq;
+    using Playfab;
     using uFrame.Kernel;
     using UniRx;
     using uFrame.ECS;
-    using Playfab;
     
     
     public partial class PlayFabPlayerStatsSystemBase : uFrame.ECS.EcsSystem {

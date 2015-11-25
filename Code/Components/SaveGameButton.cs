@@ -14,9 +14,9 @@ namespace Playfab {
     using System.Collections.Generic;
     using System.Linq;
     using Invert.Json;
-    using uFrame.ECS;
     using UniRx;
     using UnityEngine;
+    using uFrame.ECS;
     
     
     [uFrame.Attributes.ComponentId(19)]

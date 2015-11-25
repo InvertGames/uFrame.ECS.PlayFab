@@ -9,11 +9,5 @@ namespace Playfab {
     
     
     public partial class NotificationSystem : NotificationSystemBase {
-        protected override void LogDebugMessageHandler(NotificationMessage data)
-        {
-            base.LogDebugMessageHandler(data);
-            if (DebugLog)
-            UnityEngine.Debug.Log(data.Title + ": " + data.Message);
-        }
     }
 }

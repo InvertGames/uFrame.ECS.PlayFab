@@ -3,22 +3,19 @@ namespace Playfab {
     using System.Collections;
     using System.Collections.Generic;
     using System.Linq;
+    using UnityEngine.UI;
+    using Playfab;
+    using uFrame.Kernel;
     using UniRx;
     using uFrame.ECS;
-    using uFrame.Kernel;
     
     
     public partial class DemoPlayerSystem : DemoPlayerSystemBase {
-        protected override void NotifyLoginHandler(UserLoggedIn data)
-        {
-            base.NotifyLoginHandler(data);
-            Publish(new NotificationMessage()
-            {
-                Title = "Logged In",
-                Message = "Welcome to my game!"
-            });
-        }
-
         
+        protected override void DemoPlayerSystemGameReadyHandler(uFrame.Kernel.GameReadyEvent data) {
+        }
+        
+        protected override void NotifyLoginHandler(Playfab.UserLoggedIn data) {
+        }
     }
 }

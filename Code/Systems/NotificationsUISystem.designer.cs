@@ -13,11 +13,11 @@ namespace Playfab {
     using System.Collections;
     using System.Collections.Generic;
     using System.Linq;
-    using uFrame.Kernel;
-    using uFrame.ECS;
-    using UniRx;
     using Playfab;
     using UnityEngine.UI;
+    using uFrame.Kernel;
+    using UniRx;
+    using uFrame.ECS;
     
     
     public partial class NotificationsUISystemBase : uFrame.ECS.EcsSystem {

@@ -4,4 +4,5 @@
 	"Namespace":"Playfab"	, 
 	"MajorVersion":1	, 
 	"MinorVersion":0	, 
-	"BuildVersion":0}
+	"BuildVersion":1	, 
+	"BuildNumber":1}

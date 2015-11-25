@@ -9,7 +9,6 @@ namespace Playfab {
     using uFrame.ECS;
     
     
-
     public partial class LoginUISystem : LoginUISystemBase {
     }
 }
